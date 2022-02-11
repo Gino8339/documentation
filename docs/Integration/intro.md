@@ -4,36 +4,36 @@ id: my-home-doc
 slug: /
 ---
 
-# 👋 Welcome!
+# 👋 歡迎 !
 
-Connext is the interoperability protocol of L2 Ethereum.
+Connext 是 L2 以太坊的互操作性协议。
 
-You can use Connext to send transactions of value or calldata across chains and/or rollups. Unlike most other interoperability systems, Connext enables this *without* introducing any new trust assumptions or external validators.
+您可以使用 Connext 跨链和/或汇总发送价值交易或调用数据。 与大多数其他互操作性系统不同，Connext *无需*引入任何新的信任假设或外部验证器即可实现这一点。
 
-Note that the current version of Connext cannot be used pass arbitrary event data between chains (i.e. prove to chain B that something occurred on chain A) as this cannot be done in a trust-minimized way in the evm except by incurring the 1-week exit window of existing rollup bridges. 
+请注意，当前版本的 Connext 不能用于在链之间传递任意事件数据（即向链 B 证明链 A 上发生了某些事情），因为这不能在 evm 中以信任最小化的方式完成，除非产生 1 周 现有卷帘桥的出口窗口。
 
-This means that cases like **migrating** a token from chain A to chain B are not supported - you can instead only swap/transact over liquidity that already exists on the chain.
+这意味着不支持将代币从链 A 迁移到链 B 之类的情况 - 您只能在链上已经存在的流动性上进行交换/交易。
 
-## Contents
+## 内容
 
-These docs contain information for developers integrating Connext and liquidity providers. If you're interested in contributing to the development of the system, check out the READMEs in our [core implementation repo](https://github.com/connext/nxtp).
+这些文档包含用于集成 Connext 和流动性提供者的开发人员的信息。如果您有兴趣为系统的开发做出贡献，请查看我们的 [核心实现 repo](https://github.com/connext/nxtp) 中的自述文件。
 
-#### [Quick Start](./Integration/QuickStart/setup)
+#### [快速启动](./Integration/QuickStart/setup)
 
-Want to get started with crosschain interactions in your dApp right away? We step through the E2E integration flow in our Quick Start guide.
+想立即开始在您的 dApp 中进行跨链交互吗？我们在快速入门指南中逐步介绍了 E2E 集成流程。
 
-#### [System Overview](./Integration/SystemOverview/faq)
+#### [系统概述](./Integration/SystemOverview/faq)
 
-The System Overview section covers high level information about crosschain interoperability and how **nxtp**, the protocol underlying Connext, works.
+系统概述部分涵盖了有关跨链互操作性以及 **nxtp**（Connext 底层协议）如何工作的高级信息。
 
-#### [Guides](./developers/getting-started)
+#### [指南](./developers/getting-started)
 
-More guides are coming soon! We'll cover common workflows like calling a contract across chains and tips for UX!
+更多指南即将推出！我们将介绍常见的工作流程，例如跨链调用合约和 UX 提示！
 
-#### [API Reference](./APIReference/sdkAPI)
+#### [API 参考](./APIReference/sdkAPI)
 
-API Reference is also coming soon!
+API 参考也即将推出！
 
 ---
 
-Don't know where to start? Come say hi in our [community chat](https://chat.connext.network)!
+不知道从哪里开始？来我们的 [社区聊天](https://chat.connext.network) 打个招呼吧！
